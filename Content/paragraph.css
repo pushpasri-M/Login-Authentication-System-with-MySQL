@@ -1,0 +1,47 @@
+﻿body {
+    background-color: whitesmoke;
+    font-family: fantasy;
+    margin: 0;
+}
+#div1_img {
+    width: 100%; 
+    height: auto;
+    display:block;
+}
+.container.body-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#para1 {
+    margin: 90px 90px;
+    text-align: justify;
+    justify-items: center;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgb(128 128 128);
+    inline-size: auto;
+    line-height: 1.6;
+}
+#namecard {
+    max-width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap; /* makes it responsive */
+    width: 100%;
+    overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+#column {
+    flex: 1 1 50%; /* 50% width, grows/shrinks */
+    padding:5000px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    height:auto;
+}
