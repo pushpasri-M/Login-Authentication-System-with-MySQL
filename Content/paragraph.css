@@ -23,6 +23,7 @@
     box-shadow: 0 4px 8px rgb(128 128 128);
     inline-size: auto;
     line-height: 1.6;
+    font-size:16px
 }
 #namecard {
     max-width: 70%;
@@ -44,4 +45,37 @@
     border: none;
     padding: 10px;
     height:auto;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#para1:hover {
+    transform: scale(1.05); /* Zoom effect */
+    transition: transform 0.3s;
+    border:none; /* Blue border on hover */
+    border-radius: 18px;
+}
+#para {
+    margin: 50px 50px 50px 50px;
+    text-align: justify;
+    justify-items: center;
+    border: 2px solid whitesmoke;
+}
+#button1 {
+    height: 50px;
+    width: 160px;
+    background-color: darkviolet;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(128 128 128 / 0.54);
+}
+.Box-card{
+
 }
