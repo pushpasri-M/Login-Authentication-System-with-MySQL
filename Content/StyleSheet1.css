@@ -1,0 +1,53 @@
+﻿
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust as needed */
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 15px;
+    color: #333;
+}
+
+td {
+    padding: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: darkslateblue;
+    }

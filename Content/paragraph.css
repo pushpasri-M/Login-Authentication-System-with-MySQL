@@ -2,6 +2,13 @@
     background-color: whitesmoke;
     font-family: fantasy;
     margin: 0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    inline-size: auto;
+    line-height: 1.6;
 }
 #div1_img {
     width: 100%; 
@@ -109,4 +116,13 @@
     justify-content: center;
     margin: 20px 2px 2px 2px;
 
+}
+#Form-cs {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    justify-items:center;
+    font-size: 50px
 }
