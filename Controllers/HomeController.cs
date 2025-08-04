@@ -38,7 +38,7 @@ namespace Registration.Controllers
             comd.Parameters.AddWithValue("@messageUS", message);
             comd.ExecuteNonQuery();
             cont.Close();
-             return RedirectToAction("Contact");
+            return RedirectToAction("Contact");
         }
     }
 }
