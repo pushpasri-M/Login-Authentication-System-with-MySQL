@@ -1,8 +1,7 @@
-﻿
+﻿@model IEnumerable<Registration.Models.SignIn>
 @{
     ViewBag.Title = "Data";
 }
-
 
 <html>
 <head>
@@ -27,6 +26,10 @@
             <div class="text-center">
                 <button type="submit" class="btn btn-primary w-100" style="background-color:darkseagreen; border:none;margin:20px 2px " onclick="loginMessage()">Login</button>
             </div>
+            @foreach(var x in Model)
+            {
+                    
+            }
             
         </form>
     </div>
