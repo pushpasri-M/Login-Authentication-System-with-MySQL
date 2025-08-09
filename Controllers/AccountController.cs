@@ -43,7 +43,7 @@ namespace Registration.Controllers
             // Step 5: Execute the command
             com.ExecuteNonQuery();
             con.Close();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
